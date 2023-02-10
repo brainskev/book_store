@@ -22,7 +22,9 @@ const Bookitem = (props) => {
         <p className="text category" value={category}>{category}</p>
         <p className="text title">{title}</p>
         <p className="text author">{author}</p>
+        <button type="button" className="comment">Comment</button>
         <button type="button" className="remove" onClick={remove}>Remove</button>
+        <button type="button" className="edit">edit</button>
       </div>
       <div className="progressContainer">
         <div className="graph">

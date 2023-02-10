@@ -129,6 +129,28 @@
   border: none;
   font-family: 'Roboto Slab', serif;
   color: #0290ff;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.comment {
+  font-size: 0.875rem;
+  padding: 0;
+  margin-top: 2.3rem;
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+  color: #0290ff;
+}
+
+.edit {
+  font-size: 0.875rem;
+  padding: 0;
+  margin-top: 2.3rem;
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto Slab', serif;
+  color: #0290ff;
 }
 
 .remove:hover {
@@ -235,8 +257,9 @@
 
 .AddNew {
   display: flex;
-  margin: 0rem 6.25rem;
+  margin: 1.833rem 6.25rem;
   gap: 1rem;
+  margin-bottom: 5rem;
 }
 
 input {

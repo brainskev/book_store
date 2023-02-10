@@ -42,7 +42,7 @@ const Addbook = () => {
             <option value="adventure">Adventure</option>
           </select>
         </label>
-        <button type="submit" onClick={(e) => addNew(title, author, category, e)}>Add Book</button>
+        <button type="submit" className="addBtn" onClick={(e) => addNew(title, author, category, e)}>Add Book</button>
       </form>
     </div>
   );
