@@ -4,6 +4,12 @@
   width: 100%;
 }
 
+.h4 {
+  color: #121212;
+  margin: 3.993rem 6.25rem;
+  margin-bottom: 1rem;
+  
+}
 
 .navbar {
   display: flex;
@@ -229,7 +235,7 @@
 
 .AddNew {
   display: flex;
-  margin: 1.813rem 6.25rem;
+  margin: 0rem 6.25rem;
   gap: 1rem;
 }
 

@@ -27,6 +27,7 @@ const Addbook = () => {
 
   return (
     <div>
+      <h4 className="h4">ADD NEW BOOK</h4>
       <form className="AddNew">
         <label htmlFor="book-title">
           <input type="text" placeholder="Book Title" onChange={fetchTitle} value={title} required />
